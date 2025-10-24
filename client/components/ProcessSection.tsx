@@ -72,7 +72,7 @@ export default function ProcessSection() {
               window.open('https://tally.so/r/mVRz7a', '_blank');
             }}
           >
-            Na klar
+            Starte jetzt
           </Button>
         </div>
       </div>

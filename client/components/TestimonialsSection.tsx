@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
               window.open('https://tally.so/r/mVRz7a', '_blank');
             }}
           >
-            Na klar
+            Starte jetzt
           </Button>
         </div>
       </div>
