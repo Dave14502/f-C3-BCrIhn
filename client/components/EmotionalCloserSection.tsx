@@ -1,0 +1,40 @@
+import { Button } from "@/components/ui/button";
+
+export default function EmotionalCloserSection() {
+  return (
+    <section className="bg-primary py-20 md:py-32 border-t border-border">
+      <div className="container max-w-4xl mx-auto px-4">
+        <div className="text-center space-y-8">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-background leading-tight">
+            Warum du nicht warten solltest
+          </h2>
+
+          <div className="space-y-6 text-lg text-background/90 max-w-2xl mx-auto">
+            <p>
+              Erektionsprobleme sind kein Zeichen von Schwäche – sondern ein Signal deines Körpers.
+            </p>
+            <p>
+              fürihn™ hilft dir, das Thema endlich unkompliziert und seriös anzugehen.
+            </p>
+            <p className="text-xl font-semibold">
+              Schnell. Diskret. Ärztlich begleitet.
+            </p>
+          </div>
+
+          {/* CTA Button */}
+          <div className="pt-4">
+            <Button 
+              size="lg" 
+              className="bg-background hover:bg-background/90 text-primary font-semibold px-8 py-6 rounded-lg text-lg"
+              onClick={() => {
+                document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
+              Jetzt Quiz starten →
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
