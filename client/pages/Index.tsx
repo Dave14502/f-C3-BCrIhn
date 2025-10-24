@@ -40,7 +40,7 @@ export default function Index() {
               className="inline-block"
             >
               <button className="bg-primary hover:bg-primary/90 text-background font-semibold px-8 py-3 rounded-lg text-lg">
-                Start your journey
+                Na klar
               </button>
             </a>
           </div>

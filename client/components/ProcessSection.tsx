@@ -72,7 +72,7 @@ export default function ProcessSection() {
               window.open('https://tally.so/r/mVRz7a', '_blank');
             }}
           >
-            Start your journey
+            Na klar
           </Button>
         </div>
       </div>
