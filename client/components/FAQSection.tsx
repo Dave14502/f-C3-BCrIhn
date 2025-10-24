@@ -17,25 +17,25 @@ const faqs: FAQ[] = [
     id: "1",
     question: "Ist fürihn™ legal?",
     answer:
-      "Ja. fürihn™ vermittelt ausschließlich zugelassene Ärzte und Apotheken innerhalb der EU.",
+      "Ja. fürihn™ vermittelt ausschließlich zugelassene Ärzte und Apotheken innerhalb der EU und erfüllt alle gesetzlichen Anforderungen.",
   },
   {
     id: "2",
     question: "Ist fürihn™ selbst eine Apotheke?",
     answer:
-      "Nein. fürihn™ ist ein Telehealth-Service, der dich digital mit Ärzten und Partnerapotheken verbindet.",
+      "Nein. fürihn™ ist ein Telehealth-Service, der den Kontakt zu Ärzten und Apotheken digital ermöglicht.",
   },
   {
     id: "3",
     question: "Wie läuft die Bezahlung?",
     answer:
-      "Diskrete Abbuchung unter neutralem Namen.",
+      "Die Zahlung erfolgt über eine neutrale Abrechnung – auf deinem Kontoauszug erscheint kein sensibler Hinweis.",
   },
   {
     id: "4",
-    question: "Was passiert nach dem Quiz?",
+    question: "Was passiert nach dem Start?",
     answer:
-      "Ein Arzt prüft deine Angaben und stellt, wenn sinnvoll, ein Rezept aus.",
+      "Ein Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch angezeigt ist. Bei Eignung erhältst du das Rezept und die Lieferung über unsere Partnerapotheke.",
   },
 ];
 

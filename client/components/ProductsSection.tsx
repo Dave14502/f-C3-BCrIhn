@@ -8,12 +8,12 @@ export default function ProblemAwarenessSection() {
           {/* Left: Text */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
-              Schluss mit dem peinlichen Arztbesuch
+              Schluss mit peinlichen Arztbesuchen
             </h2>
 
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                fürihn™ verbindet dich online mit zugelassenen Ärzten, die dir helfen, das Richtige zu finden – einfach, diskret und ohne Umwege.
+                fürihn™ verbindet dich online mit zugelassenen Ärzten, die dich professionell beraten – einfach, diskret und ohne Umwege.
               </p>
               <ul className="space-y-3 text-foreground">
                 <li className="flex items-start gap-3">
@@ -30,7 +30,7 @@ export default function ProblemAwarenessSection() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-bold mt-1">✓</span>
-                  <span>Nur ein kurzer Online-Fragebogen, ärztliche Prüfung und – falls medizinisch geeignet – Rezept und Lieferung direkt zu dir nach Hause.</span>
+                  <span>Nur ein kurzer Online-Fragebogen, ärztliche Prüfung und – falls medizinisch geeignet – Rezept und Versand über unsere Partnerapotheke.</span>
                 </li>
               </ul>
             </div>

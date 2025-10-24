@@ -53,7 +53,7 @@ export default function PrivacySafetySection() {
         {/* Supporting Text */}
         <div className="text-center">
           <p className="text-xl text-muted-foreground">
-            fürihn™ steht für maximale Privatsphäre und medizinische Sicherheit.
+            fürihn™ steht für maximale Privatsphäre, ärztliche Sorgfalt und rechtssichere Abläufe.
           </p>
         </div>
       </div>

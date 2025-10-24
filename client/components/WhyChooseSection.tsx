@@ -10,23 +10,23 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Shield className="w-12 h-12 text-primary" />,
-    title: "Kein Risiko, keine Peinlichkeit",
-    description: "Alles läuft anonym und digital.",
+    title: "Diskret & digital",
+    description: "Alle Schritte finden online statt – anonym, sicher und bequem.",
   },
   {
     icon: <Lock className="w-12 h-12 text-primary" />,
     title: "Ärztlich geprüft & legal",
-    description: "Nur zugelassene Ärzte und Apotheken innerhalb der EU.",
+    description: "fürihn™ arbeitet ausschließlich mit in der EU zugelassenen Ärzten und Apotheken.",
   },
   {
     icon: <Zap className="w-12 h-12 text-primary" />,
-    title: "Schnell & diskret",
-    description: "Lieferung in neutraler Verpackung, meist innerhalb von 48 Stunden.",
+    title: "Schneller Ablauf",
+    description: "Von der Anfrage bis zur Lieferung meist innerhalb weniger Werktage.",
   },
   {
     icon: <Users className="w-12 h-12 text-primary" />,
-    title: "Ein Service, der sich an dich anpasst",
-    description: "Einmalige Bestellung oder flexible Nachlieferung.",
+    title: "Flexibel & transparent",
+    description: "Einmalige Behandlung oder regelmäßige Betreuung – du entscheidest.",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function ValuePropositionSection() {
         {/* Header */}
         <div className="mb-16 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Warum fürihn™ anders ist
+            Warum fürihn™ überzeugt
           </h2>
         </div>
 

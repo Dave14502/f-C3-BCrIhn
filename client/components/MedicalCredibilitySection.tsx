@@ -10,7 +10,7 @@ export default function MedicalCredibilitySection() {
           {/* Quote Section */}
           <div className="bg-secondary rounded-lg p-12 border border-border space-y-8">
             <blockquote className="text-2xl md:text-3xl text-foreground font-semibold italic">
-              „fürihn™ ermöglicht Männern, sich ärztlich behandeln zu lassen – ohne Scham, ohne Hürde, aber mit höchster medizinischer Sicherheit."
+              „fürihn™ ermöglicht Männern, ärztliche Beratung und Behandlung zu erhalten – ohne Scham, aber mit medizinischer Sicherheit."
             </blockquote>
 
             {/* Doctor Info */}

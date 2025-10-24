@@ -10,22 +10,22 @@ const steps: ProcessStep[] = [
   {
     number: 1,
     title: "Online-Fragebogen (2 Minuten)",
-    description: "Beantworte anonyme Fragen. Keine Videoanrufe, kein peinliches Gespräch.",
+    description: "Beantworte anonyme Fragen – kein Video-Call, kein persönliches Gespräch nötig.",
   },
   {
     number: 2,
     title: "Ärztliche Prüfung",
-    description: "Ein lizenzierter Arzt prüft deine Angaben und stellt, wenn sinnvoll, ein Rezept aus.",
+    description: "Ein zugelassener Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch sinnvoll ist.",
   },
   {
     number: 3,
-    title: "Diskrete Lieferung",
-    description: "Partnerapotheke sendet dein Medikament neutral verpackt direkt zu dir.",
+    title: "Rezept & Versand über Partnerapotheke",
+    description: "Falls angezeigt, stellt der Arzt ein Rezept aus. Unsere registrierte Partnerapotheke versendet die Behandlung diskret verpackt direkt zu dir.",
   },
   {
     number: 4,
-    title: "Betreuung & Nachbestellung",
-    description: "fürihn™ erinnert dich an Folgerezepte oder Anpassungen.",
+    title: "Betreuung & Folgerezept (optional)",
+    description: "fürihn™ erinnert dich an Folgerezepte und hilft dir, deine Behandlung flexibel zu gestalten.",
   },
 ];
 

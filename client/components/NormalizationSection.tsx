@@ -12,10 +12,10 @@ export default function NormalizationSection() {
               Nein – und du bist nicht allein.
             </p>
             <p>
-              Bis zu jeder dritte Mann unter 35 hat zeitweise Erektionsprobleme. Häufige Ursachen sind Stress, Leistungsdruck, Schlafmangel oder Alkohol.
+              Viele Männer unter 35 erleben zeitweise Schwierigkeiten, eine Erektion zu halten.<br />Häufige Ursachen sind Stress, Leistungsdruck, Schlafmangel oder übermäßiger Konsum digitaler Inhalte.
             </p>
             <p>
-              fürihn™ hilft dir, ärztliche Unterstützung zu bekommen – ohne Scham, ohne Wartezeit, ohne Umwege.
+              fürihn™ hilft dir, ärztliche Unterstützung zu erhalten – ohne Scham, ohne Wartezeit, ohne Umwege.
             </p>
           </div>
         </div>

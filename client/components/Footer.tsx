@@ -15,10 +15,13 @@ export default function Footer() {
               fürihn™ ist ein digitaler Gesundheitsservice, der Männer anonym mit zugelassenen Ärzten und Apotheken verbindet.
             </p>
             <p>
-              Alle Behandlungen erfolgen ausschließlich nach ärztlicher Prüfung und Rezept.
+              Alle medizinischen Entscheidungen werden ausschließlich von Ärzten getroffen.
             </p>
             <p>
-              fürihn™ ersetzt keine persönliche Untersuchung beim Arzt, sondern bietet eine telemedizinische Ergänzung.
+              Die Medikamentenabgabe erfolgt über registrierte EU-Apotheken.
+            </p>
+            <p>
+              Die Inhalte dieser Website dienen ausschließlich Informationszwecken und ersetzen keine ärztliche Untersuchung oder Diagnose.
             </p>
           </div>
 

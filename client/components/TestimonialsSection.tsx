@@ -8,17 +8,17 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "Ich wollte das Thema nie ansprechen – und hab's dann einfach online gemacht. Zwei Tage später war alles geregelt.",
+    quote: "Ich wollte das Thema nie ansprechen – online war das endlich unkompliziert.",
     name: "Max",
     age: 29,
   },
   {
-    quote: "Ich hatte keine Lust auf Peinlichkeiten beim Arzt. fürihn hat mir gezeigt, wie einfach das gehen kann.",
+    quote: "fürihn hat mir gezeigt, dass es seriös und diskret möglich ist, Hilfe zu bekommen.",
     name: "Leon",
     age: 31,
   },
   {
-    quote: "Ich hab das Quiz gemacht, der Arzt hat's geprüft – das Paket kam neutral verpackt. Ganz easy.",
+    quote: "Das Formular ausgefüllt, Arzt hat geprüft, Lieferung kam neutral verpackt. Einfach und professionell.",
     name: "Felix",
     age: 26,
   },

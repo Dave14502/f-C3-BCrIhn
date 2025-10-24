@@ -6,18 +6,15 @@ export default function EmotionalCloserSection() {
       <div className="container max-w-4xl mx-auto px-4">
         <div className="text-center space-y-8">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-background leading-tight">
-            Warum du nicht warten solltest
+            Warum jetzt handeln?
           </h2>
 
           <div className="space-y-6 text-lg text-background/90 max-w-2xl mx-auto">
             <p>
-              Erektionsprobleme sind kein Zeichen von Schwäche – sondern ein Signal deines Körpers.
+              Erektionsprobleme sind nichts Ungewöhnliches – und oft leichter ansprechbar, als viele denken.
             </p>
             <p>
-              fürihn™ hilft dir, das Thema endlich unkompliziert und seriös anzugehen.
-            </p>
-            <p className="text-xl font-semibold">
-              Schnell. Diskret. Ärztlich begleitet.
+              fürihn™ macht den Zugang zu medizinischer Unterstützung einfacher, digital und diskret.
             </p>
           </div>
 

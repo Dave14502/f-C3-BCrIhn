@@ -8,13 +8,13 @@ export default function Hero() {
           {/* Headline */}
           <div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-tight mb-6">
-              fürihn™ — Dein diskreter Weg zu ärztlicher Hilfe bei Erektionsproblemen
+              fürihn™ — Dein diskreter Telehealth-Service für Männergesundheit
             </h1>
           </div>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground">
-            Schnell, sicher und online. Ärztliche Beratung, Rezeptausstellung und Lieferung – alles über eine Plattform.
+            Schnell, sicher und online.<br />Ärztliche Beratung, digitale Rezeptausstellung und Lieferung über registrierte Partnerapotheken.
           </p>
 
           {/* Supporting Quote */}
