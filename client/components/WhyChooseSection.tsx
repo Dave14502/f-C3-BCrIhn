@@ -1,89 +1,75 @@
-import { CheckCircle, Activity, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Shield, Zap, Lock, Users } from "lucide-react";
 
-interface Benefit {
+interface Feature {
   icon: React.ReactNode;
   title: string;
-  subtitle: string;
   description: string;
 }
 
-const benefits: Benefit[] = [
+const features: Feature[] = [
   {
-    icon: <Activity className="w-12 h-12 text-primary" />,
-    title: "MEDIZINISCHE BEHANDLUNG",
-    subtitle: "Stärkere Erektionen, besserer Sex",
-    description:
-      "Gewinnen Sie Ihr Selbstvertrauen mit klinisch nachgewiesenen ED-Behandlungen zu Ihnen nach Hause zurück",
+    icon: <Shield className="w-12 h-12 text-primary" />,
+    title: "Kein Risiko, keine Peinlichkeit",
+    description: "Alles läuft anonym und digital.",
   },
   {
-    icon: <CheckCircle className="w-12 h-12 text-primary" />,
-    title: "DIAGNOSTIK",
-    subtitle: "Untersuchen Sie das Grundproblem",
-    description: "Machen Sie einen Bluttest, um die zugrunde liegende Ursache zu ermitteln",
+    icon: <Lock className="w-12 h-12 text-primary" />,
+    title: "Ärztlich geprüft & legal",
+    description: "Nur zugelassene Ärzte und Apotheken innerhalb der EU.",
+  },
+  {
+    icon: <Zap className="w-12 h-12 text-primary" />,
+    title: "Schnell & diskret",
+    description: "Lieferung in neutraler Verpackung, meist innerhalb von 48 Stunden.",
   },
   {
     icon: <Users className="w-12 h-12 text-primary" />,
-    title: "LAUFENDE UNTERSTÜTZUNG",
-    subtitle: "Bekämpfen Sie die zugrunde liegende Ursache",
-    description:
-      "Sprechen Sie mit Fachleuten für Männergesundheit, um Ihre laufende Behandlung zu planen",
+    title: "Ein Service, der sich an dich anpasst",
+    description: "Einmalige Bestellung oder flexible Nachlieferung.",
   },
 ];
 
-export default function WhyChooseSection() {
+export default function ValuePropositionSection() {
   return (
     <section className="bg-secondary py-16 md:py-24 border-t border-border">
       <div className="container max-w-7xl mx-auto px-4">
         {/* Header */}
-        <div className="mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-            Warum NumAn wählen
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Was wir anbieten
+        <div className="mb-16 text-center space-y-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            Warum fürihn™ anders ist
           </h2>
         </div>
 
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {benefits.map((benefit, index) => (
+        {/* Features Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-background rounded-lg p-8 border border-border hover:border-primary transition"
+              className="bg-background rounded-lg p-8 border border-border hover:border-primary transition space-y-4"
             >
-              <div className="mb-4">{benefit.icon}</div>
-              <h3 className="text-lg font-bold text-foreground mb-2">
-                {benefit.title}
+              <div>{feature.icon}</div>
+              <h3 className="text-lg font-bold text-foreground">
+                {feature.title}
               </h3>
-              <p className="text-primary font-semibold mb-3">{benefit.subtitle}</p>
-              <p className="text-muted-foreground">{benefit.description}</p>
+              <p className="text-muted-foreground">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
 
-        {/* Bottom Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-t border-border pt-12">
-          <div>
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Expertenteam zu Ihrem Service
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              Unsere britischen Ärzte und Kliniker spezialisieren sich auf Männergesundheit und sind
-              dem Ziel gewidmet, Ihnen zu besserer sexueller Gesundheit zu verhelfen.
-            </p>
-            <Button size="lg">
-              Beginnen Sie Ihre ED-Behandlung
-            </Button>
-          </div>
-
-          {/* Expert placeholder */}
-          <div className="bg-card rounded-lg aspect-square flex items-center justify-center border border-border">
-            <div className="text-center">
-              <Users size={48} className="text-primary mx-auto mb-4" />
-              <p className="text-muted-foreground">Fachleute Ärzte & Kliniker</p>
-            </div>
-          </div>
+        {/* CTA */}
+        <div className="text-center">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-background font-semibold"
+            onClick={() => {
+              document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
+            Quiz starten →
+          </Button>
         </div>
       </div>
     </section>
