@@ -5,37 +5,17 @@ import { useState } from "react";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const treatments = [
-    "Erektionsstörungen",
-    "Gewichtsabnahme",
-    "Niedriges Testosteron",
-    "Diagnostik",
-    "Haarausfall",
-    "Supplements",
-    "Vorzeitige Ejakulation",
-    "Bartenwuchs",
-  ];
-
   return (
     <>
-      {/* Promo Banner */}
-      <div className="bg-primary text-background py-2 px-4 text-center text-sm font-medium">
-        Sparen Sie 60% auf Ihren ersten Monat ED-Behandlung (Max. £35)
-      </div>
-
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background border-b border-border">
         <div className="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-          {/* Left: Menu */}
-          <div className="hidden md:flex items-center">
-            <Button
-              variant="ghost"
-              className="text-foreground hover:text-primary font-semibold"
-            >
-              Was wir behandeln ▼
-            </Button>
+          {/* Logo */}
+          <div className="flex items-center">
+            <h1 className="text-2xl font-bold text-primary">fürihn™</h1>
           </div>
 
+          {/* Mobile Menu Toggle */}
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -45,15 +25,12 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Center: Logo */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 md:relative md:left-0 md:transform-none">
-            <h1 className="text-2xl font-bold text-primary">numan</h1>
-          </div>
-
-          {/* Right: Account */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="text-foreground">
-              <User size={20} />
+          {/* Right: CTA */}
+          <div className="hidden md:flex items-center gap-4">
+            <Button className="bg-primary hover:bg-primary/90" onClick={() => {
+              document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+            }}>
+              Quiz starten
             </Button>
           </div>
         </div>
@@ -62,20 +39,12 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-secondary border-t border-border p-4">
             <div className="space-y-3">
-              {treatments.map((treatment) => (
-                <a
-                  key={treatment}
-                  href="#"
-                  className="block text-foreground hover:text-primary py-2 text-sm"
-                >
-                  {treatment}
-                </a>
-              ))}
-              <div className="pt-4 border-t border-border mt-4">
-                <Button className="w-full" size="lg">
-                  Jetzt starten
-                </Button>
-              </div>
+              <Button className="w-full" size="lg" onClick={() => {
+                setMobileMenuOpen(false);
+                document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
+                Quiz starten
+              </Button>
             </div>
           </div>
         )}
