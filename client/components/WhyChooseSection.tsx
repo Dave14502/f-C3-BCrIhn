@@ -11,23 +11,23 @@ interface Benefit {
 const benefits: Benefit[] = [
   {
     icon: <Activity className="w-12 h-12 text-primary" />,
-    title: "MEDICAL TREATMENT",
-    subtitle: "Stronger erections, better sex",
+    title: "MEDIZINISCHE BEHANDLUNG",
+    subtitle: "Stärkere Erektionen, besserer Sex",
     description:
-      "Reclaim your confidence with clinically proven ED treatments delivered to your door",
+      "Gewinnen Sie Ihr Selbstvertrauen mit klinisch nachgewiesenen ED-Behandlungen zu Ihnen nach Hause zurück",
   },
   {
     icon: <CheckCircle className="w-12 h-12 text-primary" />,
-    title: "DIAGNOSTICS",
-    subtitle: "Investigate the root issue",
-    description: "Take a blood test to uncover the underlying cause",
+    title: "DIAGNOSTIK",
+    subtitle: "Untersuchen Sie das Grundproblem",
+    description: "Machen Sie einen Bluttest, um die zugrunde liegende Ursache zu ermitteln",
   },
   {
     icon: <Users className="w-12 h-12 text-primary" />,
-    title: "ONGOING SUPPORT",
-    subtitle: "Tackle the underlying cause",
+    title: "LAUFENDE UNTERSTÜTZUNG",
+    subtitle: "Bekämpfen Sie die zugrunde liegende Ursache",
     description:
-      "Speak with men's health experts to plan your ongoing treatment",
+      "Sprechen Sie mit Fachleuten für Männergesundheit, um Ihre laufende Behandlung zu planen",
   },
 ];
 
@@ -38,10 +38,10 @@ export default function WhyChooseSection() {
         {/* Header */}
         <div className="mb-12">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-            Why Choose NumAn
+            Warum NumAn wählen
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            What we offer
+            Was wir anbieten
           </h2>
         </div>
 
@@ -66,14 +66,14 @@ export default function WhyChooseSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-t border-border pt-12">
           <div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Expert Team at Your Service
+              Expertenteam zu Ihrem Service
             </h3>
             <p className="text-muted-foreground mb-6">
-              Our UK doctors and clinicians specialize in men's health and are
-              dedicated to helping you achieve better sexual wellness.
+              Unsere britischen Ärzte und Kliniker spezialisieren sich auf Männergesundheit und sind
+              dem Ziel gewidmet, Ihnen zu besserer sexueller Gesundheit zu verhelfen.
             </p>
             <Button size="lg">
-              Start your ED journey
+              Beginnen Sie Ihre ED-Behandlung
             </Button>
           </div>
 
@@ -81,7 +81,7 @@ export default function WhyChooseSection() {
           <div className="bg-card rounded-lg aspect-square flex items-center justify-center border border-border">
             <div className="text-center">
               <Users size={48} className="text-primary mx-auto mb-4" />
-              <p className="text-muted-foreground">Expert doctors & clinicians</p>
+              <p className="text-muted-foreground">Fachleute Ärzte & Kliniker</p>
             </div>
           </div>
         </div>

@@ -21,21 +21,21 @@ export default function Hero() {
           <div className="order-1 md:order-2 space-y-6">
             <div>
               <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-                Men's Health
+                Männergesundheit
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-tight">
-                Tackle Erectile Dysfunction
+                Überwindung der Erektionsstörung
               </h1>
             </div>
 
             <p className="text-lg text-muted-foreground">
-              Trusted by over 500,000 men.
+              Vertraut von über 500.000 Männern.
             </p>
 
             <div className="pt-2">
               <p className="text-base">
-                From{" "}
-                <span className="text-primary font-semibold">£1.43 / tablet</span>
+                Ab{" "}
+                <span className="text-primary font-semibold">£1,43 / Tablette</span>
               </p>
             </div>
 
@@ -43,26 +43,26 @@ export default function Hero() {
               <li className="flex items-start gap-3">
                 <Check className="text-primary flex-shrink-0 mt-1" size={20} />
                 <span className="text-foreground">
-                  Clinically proven treatments, discreetly delivered
+                  Klinisch nachgewiesene Behandlungen, diskret geliefert
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="text-primary flex-shrink-0 mt-1" size={20} />
                 <span className="text-foreground">
-                  Comprehensive blood tests to identify the root cause
+                  Umfassende Bluttests zur Ursachenbestimmung
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="text-primary flex-shrink-0 mt-1" size={20} />
                 <span className="text-foreground">
-                  Access to leading men's health experts
+                  Zugang zu führenden Fachleuten für Männergesundheit
                 </span>
               </li>
             </ul>
 
             <div className="pt-4">
               <Button size="lg" className="w-full md:w-auto">
-                Get started
+                Jetzt starten
               </Button>
             </div>
           </div>
@@ -75,17 +75,17 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-foreground">
-                Enjoy better sex again
+                Genießen Sie wieder besseren Sex
               </h3>
               <p className="text-muted-foreground mt-2">
-                Clinically proven treatments delivered discretely to your door.
+                Klinisch nachgewiesene Behandlungen, diskret zu Ihnen nach Hause geliefert.
               </p>
             </div>
             <Button
               size="lg"
               className="md:w-auto"
             >
-              Get started →
+              Jetzt starten →
             </Button>
           </div>
         </div>

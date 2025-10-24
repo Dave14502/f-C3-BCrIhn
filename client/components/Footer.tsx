@@ -10,31 +10,31 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Treatments */}
           <div>
-            <h4 className="font-bold text-foreground mb-4">Treatments</h4>
+            <h4 className="font-bold text-foreground mb-4">Behandlungen</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Erectile Dysfunction
+                  Erektionsstörungen
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Weight Loss
+                  Gewichtsabnahme
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Low Testosterone
+                  Niedriges Testosteron
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Hair Loss
+                  Haarausfall
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Diagnostics
+                  Diagnostik
                 </a>
               </li>
             </ul>
@@ -42,16 +42,16 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="font-bold text-foreground mb-4">Company</h4>
+            <h4 className="font-bold text-foreground mb-4">Unternehmen</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  About Us
+                  Über uns
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Careers
+                  Karrieren
                 </a>
               </li>
               <li>
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Reviews
+                  Bewertungen
                 </a>
               </li>
             </ul>
@@ -69,26 +69,26 @@ export default function Footer() {
 
           {/* Support */}
           <div>
-            <h4 className="font-bold text-foreground mb-4">Support</h4>
+            <h4 className="font-bold text-foreground mb-4">Unterstützung</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Help Centre
+                  Hilfezentrum
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Contact Us
+                  Kontaktieren Sie uns
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  FAQs
+                  Häufig gestellte Fragen
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary">
-                  Privacy Policy
+                  Datenschutzrichtlinie
                 </a>
               </li>
             </ul>
@@ -96,7 +96,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h4 className="font-bold text-foreground mb-4">Follow Us</h4>
+            <h4 className="font-bold text-foreground mb-4">Folgen Sie uns</h4>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-primary">
                 <Facebook size={20} />
@@ -115,21 +115,21 @@ export default function Footer() {
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div>
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Numan. All rights reserved.
+              © {currentYear} Numan. Alle Rechte vorbehalten.
             </p>
             <p className="text-xs text-muted-foreground mt-2">
-              Registered in England and Wales, Company Number 11449267
+              Registriert in England und Wales, Firmennummer 11449267
             </p>
           </div>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-muted-foreground hover:text-primary">
-              Terms of Service
+              Servicebedingungen
             </a>
             <a href="#" className="text-xs text-muted-foreground hover:text-primary">
-              Privacy Policy
+              Datenschutzrichtlinie
             </a>
             <a href="#" className="text-xs text-muted-foreground hover:text-primary">
-              Cookie Policy
+              Cookie-Richtlinie
             </a>
           </div>
         </div>

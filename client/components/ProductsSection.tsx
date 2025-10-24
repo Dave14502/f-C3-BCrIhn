@@ -16,24 +16,24 @@ const products: Product[] = [
   {
     id: 1,
     name: "Sildenafil",
-    description: "Promotes strong erections",
-    price: "From £1.15 / tablet",
+    description: "Fördert starke Erektionen",
+    price: "Ab £1,15 / Tablette",
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23444' width='200' height='200'/%3E%3C/svg%3E",
     gradient: "from-blue-600 to-blue-800",
   },
   {
     id: 2,
     name: "Tadalafil",
-    description: "Lasting for up to 36 hours",
-    price: "From £1.38 / tablet",
+    description: "Wirkt bis zu 36 Stunden",
+    price: "Ab £1,38 / Tablette",
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23444' width='200' height='200'/%3E%3C/svg%3E",
     gradient: "from-purple-600 to-purple-800",
   },
   {
     id: 3,
     name: "Viagra Connect",
-    description: "Over the counter",
-    price: "From £8.75",
+    description: "Rezeptfrei erhältlich",
+    price: "Ab £8,75",
     originalPrice: "£13.12",
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23444' width='200' height='200'/%3E%3C/svg%3E",
     gradient: "from-red-600 to-red-800",
@@ -41,8 +41,8 @@ const products: Product[] = [
   {
     id: 4,
     name: "Cialis Together",
-    description: "Over the counter",
-    price: "From £6.25",
+    description: "Rezeptfrei erhältlich",
+    price: "Ab £6,25",
     originalPrice: "£10.63",
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23444' width='200' height='200'/%3E%3C/svg%3E",
     gradient: "from-indigo-600 to-indigo-800",
@@ -68,13 +68,13 @@ export default function ProductsSection() {
         {/* Header */}
         <div className="mb-12">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-            Our ED Treatments
+            Unsere ED-Behandlungen
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Our ED Treatments
+            Unsere ED-Behandlungen
           </h2>
           <p className="text-lg text-muted-foreground">
-            Effective treatments, trusted by over 500,000 men
+            Wirksame Behandlungen, vertraut von über 500.000 Männern
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export default function ProductsSection() {
         {/* CTA */}
         <div className="text-center mt-12">
           <Button size="lg" className="hidden md:inline-flex">
-            Start your ED treatment journey
+            Beginnen Sie Ihre ED-Behandlung
           </Button>
         </div>
       </div>
@@ -162,7 +162,7 @@ function ProductCard({ product }: { product: Product }) {
         <p className="text-white font-semibold mb-6">{product.price}</p>
 
         <Button variant="secondary" className="w-full">
-          Learn more
+          Mehr erfahren
         </Button>
       </div>
     </div>

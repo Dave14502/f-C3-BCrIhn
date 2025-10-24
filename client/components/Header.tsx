@@ -6,21 +6,21 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const treatments = [
-    "Erectile Dysfunction",
-    "Weight Loss",
-    "Low Testosterone",
-    "Diagnostics",
-    "Hair Loss",
+    "Erektionsstörungen",
+    "Gewichtsabnahme",
+    "Niedriges Testosteron",
+    "Diagnostik",
+    "Haarausfall",
     "Supplements",
-    "Premature Ejaculation",
-    "Beard Growth",
+    "Vorzeitige Ejakulation",
+    "Bartenwuchs",
   ];
 
   return (
     <>
       {/* Promo Banner */}
       <div className="bg-primary text-background py-2 px-4 text-center text-sm font-medium">
-        Save 60% on your first month of ED treatment (Max. £35)
+        Sparen Sie 60% auf Ihren ersten Monat ED-Behandlung (Max. £35)
       </div>
 
       {/* Header */}
@@ -32,7 +32,7 @@ export default function Header() {
               variant="ghost"
               className="text-foreground hover:text-primary font-semibold"
             >
-              What we treat ▼
+              Was wir behandeln ▼
             </Button>
           </div>
 
@@ -73,7 +73,7 @@ export default function Header() {
               ))}
               <div className="pt-4 border-t border-border mt-4">
                 <Button className="w-full" size="lg">
-                  Get started
+                  Jetzt starten
                 </Button>
               </div>
             </div>

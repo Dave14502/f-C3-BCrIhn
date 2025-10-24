@@ -14,51 +14,51 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     id: "1",
-    question: "What can I expect when I take erectile dysfunction tablets?",
+    question: "Was kann ich erwarten, wenn ich Erektionsstörungstabletten nehme?",
     answer:
-      "When you take ED tablets, you can expect stronger and longer-lasting erections. Sildenafil typically takes effect within 1 hour and lasts up to 4 hours. Tadalafil works within 30 minutes and can last up to 36 hours. These medications work by increasing blood flow to the penis during sexual stimulation.",
+      "Wenn Sie ED-Tabletten nehmen, können Sie mit stärkeren und länger andauernden Erektionen rechnen. Sildenafil wirkt typischerweise innerhalb von 1 Stunde und hält bis zu 4 Stunden. Tadalafil wirkt innerhalb von 30 Minuten und kann bis zu 36 Stunden anhalten. Diese Medikamente funktionieren, indem sie die Blutversorgung des Penis während der sexuellen Stimulation erhöhen.",
   },
   {
     id: "2",
-    question: "Which erectile dysfunction treatment should I use?",
+    question: "Welche Erektionsstörungsbehandlung sollte ich verwenden?",
     answer:
-      "The best ED treatment depends on your lifestyle and preferences. Sildenafil (Viagra) is taken on-demand before sex. Tadalafil (Cialis) is also on-demand but lasts longer. Tadalafil Daily is taken every day for continuous support. Our clinicians can help you choose the right option.",
+      "Die beste ED-Behandlung hängt von Ihrem Lebensstil und Ihren Vorlieben ab. Sildenafil (Viagra) wird bei Bedarf vor dem Sex eingenommen. Tadalafil (Cialis) wird auch bei Bedarf eingenommen, hält aber länger. Tadalafil Daily wird täglich für kontinuierliche Unterstützung eingenommen. Unsere Kliniker können Ihnen helfen, die richtige Option zu wählen.",
   },
   {
     id: "3",
-    question: "Are ED tablets safe to use long term?",
+    question: "Sind ED-Tabletten sicher für die langfristige Anwendung?",
     answer:
-      "Yes, ED tablets are safe for long-term use when prescribed and monitored by healthcare professionals. Millions of men worldwide have safely used these treatments for extended periods. However, it's important to have regular check-ups with your healthcare provider.",
+      "Ja, ED-Tabletten sind sicher für die langfristige Anwendung, wenn sie von Gesundheitsfachleuten verschrieben und überwacht werden. Millionen von Männern weltweit haben diese Behandlungen über längere Zeiträume sicher angewendet. Es ist jedoch wichtig, regelmäßig Kontrolluntersuchungen bei Ihrem Arzt durchzuführen.",
   },
   {
     id: "4",
-    question: "What side effects do ED medications have?",
+    question: "Welche Nebenwirkungen haben ED-Medikamente?",
     answer:
-      "Common side effects may include headache, flushing, indigestion, and nasal congestion. Most side effects are mild and temporary. Serious side effects are rare when used as directed. Always discuss any concerns with your healthcare provider.",
+      "Häufige Nebenwirkungen können Kopfschmerzen, Hautrötungen, Magenverstimmung und Verstopfung der Nase sein. Die meisten Nebenwirkungen sind leicht und vorübergehend. Schwerwiegende Nebenwirkungen sind selten, wenn die Medikamente wie angegeben verwendet werden. Besprechen Sie alle Bedenken immer mit Ihrem Arzt.",
   },
   {
     id: "5",
-    question: "Can I change my ED treatment if it's not effective?",
+    question: "Kann ich meine ED-Behandlung wechseln, wenn sie nicht wirksam ist?",
     answer:
-      "Absolutely. If one medication isn't working well for you, our clinicians can help you try a different one. Some men respond better to different treatments, so finding the right one may take some time.",
+      "Absolut. Wenn ein Medikament für Sie nicht gut wirkt, können Ihnen unsere Kliniker bei einem anderen helfen. Einige Männer sprechen besser auf verschiedene Behandlungen an, daher kann die Suche nach der richtigen einige Zeit dauern.",
   },
   {
     id: "6",
-    question: "Why are Numan ED medications cheaper?",
+    question: "Warum sind Numan ED-Medikamente billiger?",
     answer:
-      "We offer competitive pricing on generic ED medications. Generic medications are as effective as brand-name versions but cost less because they don't have the same branding and marketing expenses.",
+      "Wir bieten wettbewerbsfähige Preise für generische ED-Medikamente. Generische Medikamente sind genauso wirksam wie Markenversionen, kosten aber weniger, da sie nicht die gleichen Branding- und Marketingausgaben haben.",
   },
   {
     id: "7",
-    question: "Can I take ED tablets more than once a day?",
+    question: "Kann ich ED-Tabletten mehr als einmal täglich nehmen?",
     answer:
-      "No, ED tablets should not be taken more than once per day. Taking more than the recommended dose does not improve effectiveness and may increase the risk of side effects. Always follow the dosing instructions provided.",
+      "Nein, ED-Tabletten sollten nicht mehr als einmal pro Tag eingenommen werden. Die Einnahme einer höheren Dosis als empfohlen verbessert die Wirksamkeit nicht und kann das Risiko von Nebenwirkungen erhöhen. Befolgen Sie immer die angegebenen Dosierungsanweisungen.",
   },
   {
     id: "8",
-    question: "What doses do ED tablets come in?",
+    question: "In welchen Dosen sind ED-Tabletten erhältlich?",
     answer:
-      "Sildenafil comes in 50mg and 100mg. Tadalafil comes in 10mg and 20mg. Tadalafil Daily comes in 2.5mg and 5mg. Viagra Connect is available in 50mg. Your clinician will recommend the right dose for you.",
+      "Sildenafil ist in 50 mg und 100 mg erhältlich. Tadalafil ist in 10 mg und 20 mg erhältlich. Tadalafil Daily ist in 2,5 mg und 5 mg erhältlich. Viagra Connect ist in 50 mg erhältlich. Ihr Kliniker empfiehlt Ihnen die richtige Dosis.",
   },
 ];
 
@@ -69,10 +69,10 @@ export default function FAQSection() {
         {/* Header */}
         <div className="mb-12">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-            FAQs
+            Häufig gestellte Fragen
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Your questions answered
+            Ihre Fragen beantwortet
           </h2>
         </div>
 
