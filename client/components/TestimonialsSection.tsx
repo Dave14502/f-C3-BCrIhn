@@ -56,14 +56,14 @@ export default function TestimonialsSection() {
 
         {/* CTA */}
         <div className="text-center">
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-primary hover:bg-primary/90 text-background font-semibold"
             onClick={() => {
-              document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+              window.open('https://tally.so/r/mVRz7a', '_blank');
             }}
           >
-            Jetzt Quiz starten
+            Start your journey
           </Button>
         </div>
       </div>

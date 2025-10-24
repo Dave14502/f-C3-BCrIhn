@@ -29,14 +29,14 @@ export default function Hero() {
 
           {/* CTA Button */}
           <div className="pt-4">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-primary hover:bg-primary/90 text-background font-semibold px-8 py-6 rounded-lg text-lg"
               onClick={() => {
-                document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
+                window.open('https://tally.so/r/mVRz7a', '_blank');
               }}
             >
-              Jetzt Quiz starten
+              Start your journey
             </Button>
           </div>
         </div>

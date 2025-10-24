@@ -27,15 +27,22 @@ export default function Index() {
       <section id="quiz" className="bg-background py-16 md:py-24 border-t border-border">
         <div className="container max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Starte dein Quiz
+            Starte jetzt
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
             Beantworte ein paar schnelle Fragen, und lass dich mit einem Arzt verbinden.
           </p>
-          <div className="bg-secondary rounded-lg p-12 border border-border">
-            <p className="text-muted-foreground mb-4">
-              Quiz-Funktionalität wird hier implementiert
-            </p>
+          <div className="space-y-4">
+            <a
+              href="https://tally.so/r/mVRz7a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <button className="bg-primary hover:bg-primary/90 text-background font-semibold px-8 py-3 rounded-lg text-lg">
+                Start your journey
+              </button>
+            </a>
           </div>
         </div>
       </section>
