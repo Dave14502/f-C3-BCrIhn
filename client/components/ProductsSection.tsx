@@ -29,7 +29,7 @@ export default function ProblemAwarenessSection() {
                   <span>Kein Papierkram.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-primary font-bold mt-1">✓</span>
+                  <span className="text-primary font-bold mt-1">→</span>
                   <span>Nur ein kurzer Online-Fragebogen, ärztliche Prüfung und – falls medizinisch geeignet – Rezept und Versand über unsere Partnerapotheke.</span>
                 </li>
               </ul>
