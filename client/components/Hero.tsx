@@ -20,10 +20,10 @@ export default function Hero() {
           {/* Supporting Quote */}
           <div className="bg-secondary rounded-lg p-8 md:p-12 border border-border space-y-3 max-w-2xl mx-auto">
             <p className="text-lg md:text-xl text-foreground font-semibold">
-              Du bist 28, nicht 58.
+              Jeder dritte Mann unter 35 kennt das Gefühl.
             </p>
             <p className="text-lg md:text-xl text-foreground font-semibold">
-              Du bist nicht kaputt – du willst nur wieder Kontrolle.
+              Du bist nicht allein – und du bist nicht kaputt.
             </p>
           </div>
 
