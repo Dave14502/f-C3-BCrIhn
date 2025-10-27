@@ -14,23 +14,27 @@ export default function Footer() {
           {/* Legal Disclaimer */}
           <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
             <p>
-              fürihn™ ist ein digitaler Gesundheitsservice, der Männer anonym mit zugelassenen Ärzten und Apotheken verbindet.
+              fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema Männergesundheit.
             </p>
             <p>
-              Alle medizinischen Entscheidungen werden ausschließlich von Ärzten getroffen.
+              Ziel ist es, Männern zukünftig einen sicheren und diskreten Zugang zu medizinischer Beratung zu ermöglichen.
             </p>
             <p>
-              Die Medikamentenabgabe erfolgt über registrierte EU-Apotheken.
+              Aktuell befindet sich das Projekt in der Aufbau- und Testphase.
             </p>
             <p>
-              Die Inhalte dieser Website dienen ausschließlich Informationszwecken und ersetzen keine ärztliche Untersuchung oder Diagnose.
+              Es werden keine medizinischen Leistungen angeboten und keine Medikamente abgegeben.
+            </p>
+            <p>
+              Die Inhalte dieser Website dienen ausschließlich Informationszwecken und ersetzen keine ärztliche Untersuchung, Diagnose oder Behandlung.
             </p>
           </div>
 
-          {/* Copyright */}
+          {/* Divider */}
           <div className="border-t border-border pt-8">
+            <p className="text-muted-foreground text-sm mb-4">⸻</p>
             <p className="text-xs text-muted-foreground">
-              © {currentYear} fürihn Health GmbH – Alle Rechte vorbehalten.
+              © {currentYear} fürihn — Alle Rechte vorbehalten.
             </p>
           </div>
         </div>
