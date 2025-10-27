@@ -15,27 +15,39 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     id: "1",
-    question: "Ist fürihn™ legal?",
+    question: "Ist fürihn™ legal und sicher?",
     answer:
-      "Ja. fürihn™ vermittelt ausschließlich zugelassene Ärzte und Apotheken innerhalb der EU und erfüllt alle gesetzlichen Anforderungen.",
+      "Ja. fürihn™ arbeitet ausschließlich mit zugelassenen Ärzten und registrierten EU-Apotheken. Alle medizinischen Schritte erfolgen nach geltendem Recht und unter ärztlicher Aufsicht.",
   },
   {
     id: "2",
-    question: "Ist fürihn™ selbst eine Apotheke?",
+    question: "Wie läuft das genau ab?",
     answer:
-      "Nein. fürihn™ ist ein Telehealth-Service, der den Kontakt zu Ärzten und Apotheken digital ermöglicht.",
+      "Du beantwortest online ein paar anonyme Fragen. Ein Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch sinnvoll ist. Falls ja, wird ein Rezept ausgestellt und die Apotheke versendet die Behandlung diskret zu dir.",
   },
   {
     id: "3",
-    question: "Wie läuft die Bezahlung?",
+    question: "Wie diskret ist die Lieferung?",
     answer:
-      "Die Zahlung erfolgt über eine neutrale Abrechnung – auf deinem Kontoauszug erscheint kein sensibler Hinweis.",
+      "Sehr diskret. Verpackung und Absender enthalten keine sensiblen Hinweise, und auch die Abbuchung auf deinem Kontoauszug ist neutral.",
   },
   {
     id: "4",
-    question: "Was passiert nach dem Start?",
+    question: "Bin ich nicht zu jung für so etwas?",
     answer:
-      "Ein Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch angezeigt ist. Bei Eignung erhältst du das Rezept und die Lieferung über unsere Partnerapotheke.",
+      "Nein. Etwa ein Drittel aller Männer unter 35 erlebt gelegentlich Erektionsprobleme – häufig durch Stress, Schlafmangel oder Leistungsdruck. fürihn™ bietet dir die Möglichkeit, das Thema einfach und vertraulich ärztlich abzuklären.",
+  },
+  {
+    id: "5",
+    question: "Kann ich das jederzeit beenden oder ändern?",
+    answer:
+      "Ja. fürihn™ ist flexibel. Du entscheidest selbst, ob du eine einmalige Behandlung oder eine fortlaufende Betreuung möchtest – eine Kündigung ist jederzeit möglich.",
+  },
+  {
+    id: "6",
+    question: "Wer erfährt von meinen Daten?",
+    answer:
+      "Nur du und der behandelnde Arzt. Deine Angaben sind verschlüsselt, deine Daten werden nicht weitergegeben oder für Werbung genutzt.",
   },
 ];
 
