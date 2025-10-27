@@ -14,7 +14,10 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground">
-            Schnell, sicher und online.<br />Ärztliche Beratung, digitale Rezeptausstellung und Lieferung über registrierte Partnerapotheken.
+            Schnell, sicher und online.
+            <br />
+            Ärztliche Beratung, digitale Rezeptausstellung und Lieferung über
+            registrierte Partnerapotheken.
           </p>
 
           {/* Supporting Quote */}
@@ -33,7 +36,7 @@ export default function Hero() {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-background font-semibold px-8 py-6 rounded-lg text-lg"
               onClick={() => {
-                window.open('https://tally.so/r/mVRz7a', '_blank');
+                window.open("https://tally.so/r/mVRz7a", "_blank");
               }}
             >
               Starte jetzt

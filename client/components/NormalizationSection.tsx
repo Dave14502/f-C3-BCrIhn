@@ -12,10 +12,14 @@ export default function NormalizationSection() {
               Nein – und du bist nicht allein.
             </p>
             <p>
-              Etwa ein Drittel aller Männer unter 35 erlebt zeitweise Schwierigkeiten, eine Erektion zu halten. Häufige Auslöser sind Stress, Leistungsdruck, Schlafmangel oder übermäßiger Konsum digitaler Inhalte.
+              Etwa ein Drittel aller Männer unter 35 erlebt zeitweise
+              Schwierigkeiten, eine Erektion zu halten. Häufige Auslöser sind
+              Stress, Leistungsdruck, Schlafmangel oder übermäßiger Konsum
+              digitaler Inhalte.
             </p>
             <p>
-              fürihn™ hilft dir, ärztliche Unterstützung zu erhalten – ohne Scham, ohne Wartezeit, ohne Umwege.
+              fürihn™ hilft dir, ärztliche Unterstützung zu erhalten – ohne
+              Scham, ohne Wartezeit, ohne Umwege.
             </p>
           </div>
         </div>

@@ -8,17 +8,20 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "Ich wollte das Thema nie ansprechen – online war das endlich unkompliziert.",
+    quote:
+      "Ich wollte das Thema nie ansprechen – online war das endlich unkompliziert.",
     name: "Max",
     age: 29,
   },
   {
-    quote: "fürihn hat mir gezeigt, dass es seriös und diskret möglich ist, Hilfe zu bekommen.",
+    quote:
+      "fürihn hat mir gezeigt, dass es seriös und diskret möglich ist, Hilfe zu bekommen.",
     name: "Leon",
     age: 31,
   },
   {
-    quote: "Das Formular ausgefüllt, Arzt hat geprüft, Lieferung kam neutral verpackt. Einfach und professionell.",
+    quote:
+      "Das Formular ausgefüllt, Arzt hat geprüft, Lieferung kam neutral verpackt. Einfach und professionell.",
     name: "Felix",
     age: 26,
   },
@@ -60,7 +63,7 @@ export default function TestimonialsSection() {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-background font-semibold"
             onClick={() => {
-              window.open('https://tally.so/r/mVRz7a', '_blank');
+              window.open("https://tally.so/r/mVRz7a", "_blank");
             }}
           >
             Starte jetzt

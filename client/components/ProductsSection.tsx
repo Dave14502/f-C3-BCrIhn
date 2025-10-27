@@ -13,7 +13,8 @@ export default function ProblemAwarenessSection() {
 
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                fürihn™ verbindet dich online mit zugelassenen Ärzten, die dich professionell beraten – einfach, diskret und ohne Umwege.
+                fürihn™ verbindet dich online mit zugelassenen Ärzten, die dich
+                professionell beraten – einfach, diskret und ohne Umwege.
               </p>
               <ul className="space-y-3 text-foreground">
                 <li className="flex items-start gap-3">
@@ -30,7 +31,11 @@ export default function ProblemAwarenessSection() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-bold mt-1">→</span>
-                  <span>Nur ein kurzer Online-Fragebogen, ärztliche Prüfung und – falls medizinisch geeignet – Rezept und Versand über unsere Partnerapotheke.</span>
+                  <span>
+                    Nur ein kurzer Online-Fragebogen, ärztliche Prüfung und –
+                    falls medizinisch geeignet – Rezept und Versand über unsere
+                    Partnerapotheke.
+                  </span>
                 </li>
               </ul>
             </div>
@@ -40,7 +45,7 @@ export default function ProblemAwarenessSection() {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-background font-semibold"
                 onClick={() => {
-                  window.open('https://tally.so/r/mVRz7a', '_blank');
+                  window.open("https://tally.so/r/mVRz7a", "_blank");
                 }}
               >
                 Starte jetzt
@@ -55,10 +60,12 @@ export default function ProblemAwarenessSection() {
                 src="https://cdn.builder.io/api/v1/image/assets%2F29271f19638b45b0980662fdd6c70134%2F5f84066aaf614f5dbd166ca345bf783b?format=webp&width=800"
                 alt="Moderner, diskreter Service"
                 className="w-full h-full object-cover object-top"
-                style={{ transform: 'scaleX(-1)' }}
+                style={{ transform: "scaleX(-1)" }}
               />
             </div>
-            <p className="text-center text-muted-foreground">Moderner, diskreter Service</p>
+            <p className="text-center text-muted-foreground">
+              Moderner, diskreter Service
+            </p>
           </div>
         </div>
       </div>

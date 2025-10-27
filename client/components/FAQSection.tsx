@@ -86,7 +86,7 @@ export default function FAQSection() {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-background font-semibold"
             onClick={() => {
-              window.open('https://tally.so/r/mVRz7a', '_blank');
+              window.open("https://tally.so/r/mVRz7a", "_blank");
             }}
           >
             Starte jetzt
