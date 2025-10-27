@@ -15,8 +15,12 @@ export default function MedicalCredibilitySection() {
 
             {/* Doctor Info */}
             <div className="space-y-4">
-              <div className="w-20 h-20 mx-auto bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center">
-                <span className="text-4xl">👨‍⚕️</span>
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-2 border-primary/20">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F29271f19638b45b0980662fdd6c70134%2F5f84066aaf614f5dbd166ca345bf783b?format=webp&width=800"
+                  alt="Dr. Lukas Hahn"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <p className="text-lg font-bold text-foreground">
