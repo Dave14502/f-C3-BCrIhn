@@ -19,7 +19,7 @@ export default function MedicalCredibilitySection() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F29271f19638b45b0980662fdd6c70134%2F5f84066aaf614f5dbd166ca345bf783b?format=webp&width=800"
                   alt="Dr. Lukas Hahn"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <div>
