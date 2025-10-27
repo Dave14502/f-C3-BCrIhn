@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -33,7 +35,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-xs text-muted-foreground">
-              © {currentYear} fürihn Health GmbH – Alle Rechte vorbehalten.
+              © {currentYear} fürihn Health GmbH ��� Alle Rechte vorbehalten.
             </p>
           </div>
         </div>
