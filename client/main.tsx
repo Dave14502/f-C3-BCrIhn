@@ -10,6 +10,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import Index from "./pages/Index";
+import Impressum from "./pages/Impressum";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,14 @@ const App = () => (
             element={
               <Layout>
                 <Index />
+              </Layout>
+            }
+          />
+          <Route
+            path="/impressum"
+            element={
+              <Layout>
+                <Impressum />
               </Layout>
             }
           />
