@@ -27,15 +27,10 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links & Copyright */}
-          <div className="border-t border-border pt-8 space-y-4">
-            <div className="flex gap-4 text-sm">
-              <Link to="/impressum" className="text-primary hover:underline">
-                Impressum
-              </Link>
-            </div>
+          {/* Copyright */}
+          <div className="border-t border-border pt-8">
             <p className="text-xs text-muted-foreground">
-              © {currentYear} fürihn Health GmbH ��� Alle Rechte vorbehalten.
+              © {currentYear} fürihn Health GmbH – Alle Rechte vorbehalten.
             </p>
           </div>
         </div>
