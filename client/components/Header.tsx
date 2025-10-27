@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, User } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,9 +12,9 @@ export default function Header() {
       <header className="sticky top-0 z-40 bg-background border-b border-border">
         <div className="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary">fürihn™</h1>
-          </div>
+          <Link to="/" className="flex items-center">
+            <h1 className="text-2xl font-bold text-primary hover:opacity-80 transition-opacity">fürihn™</h1>
+          </Link>
 
           {/* Mobile Menu Toggle */}
           <div className="md:hidden">
