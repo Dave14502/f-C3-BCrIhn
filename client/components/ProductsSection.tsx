@@ -49,15 +49,16 @@ export default function ProblemAwarenessSection() {
           </div>
 
           {/* Right: Image Placeholder */}
-          <div className="order-first md:order-last">
+          <div className="order-first md:order-last space-y-4">
             <div className="relative aspect-square bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg overflow-hidden flex items-center justify-center border border-border/50">
-              <div className="text-center space-y-4">
-                <div className="w-24 h-24 mx-auto bg-primary/20 rounded-full flex items-center justify-center">
-                  <span className="text-4xl">👨</span>
-                </div>
-                <p className="text-muted-foreground">Moderner, diskreter Service</p>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F29271f19638b45b0980662fdd6c70134%2F5f84066aaf614f5dbd166ca345bf783b?format=webp&width=800"
+                alt="Moderner, diskreter Service"
+                className="w-full h-full object-cover object-top"
+                style={{ transform: 'scaleX(-1)' }}
+              />
             </div>
+            <p className="text-center text-muted-foreground">Moderner, diskreter Service</p>
           </div>
         </div>
       </div>
