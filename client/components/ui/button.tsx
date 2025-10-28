@@ -9,7 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full",
+        default:
+          "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-md",
         outline:
@@ -44,11 +45,14 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const Comp = asChild ? Slot : "button";
 
     // Inline style fallback for Netlify deployment
-    const defaultStyles = variant === "default" ? {
-      backgroundColor: "#00ccbd",
-      color: "#ffffff",
-      borderRadius: "9999px"
-    } : undefined;
+    const defaultStyles =
+      variant === "default"
+        ? {
+            backgroundColor: "#00ccbd",
+            color: "#ffffff",
+            borderRadius: "9999px",
+          }
+        : undefined;
 
     return (
       <Comp
