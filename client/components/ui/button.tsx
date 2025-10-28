@@ -42,9 +42,18 @@ export interface ButtonProps
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
+
+    // Inline style fallback for Netlify deployment
+    const defaultStyles = variant === "default" ? {
+      backgroundColor: "#00ccbd",
+      color: "#ffffff",
+      borderRadius: "9999px"
+    } : undefined;
+
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
+        style={defaultStyles}
         ref={ref}
         {...props}
       />
