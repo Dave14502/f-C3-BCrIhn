@@ -11,25 +11,11 @@ export default function Footer() {
           {/* Logo */}
           <h2 className="text-2xl font-bold text-primary">fürihn™</h2>
 
-          {/* Legal Notice - Test Phase Warning */}
-          <div className="bg-secondary rounded-lg p-4 border border-border">
-            <p className="text-sm text-foreground font-semibold mb-2">
-              ⚠️ Hinweis: Testphase
-            </p>
-            <p className="text-xs text-muted-foreground">
-              fürihn™ befindet sich aktuell in der Testphase. Es werden keine
-              Medikamente verkauft oder ärztliche Leistungen erbracht.
-            </p>
-          </div>
-
           {/* Legal Disclaimer */}
-          <div className="space-y-3 text-muted-foreground text-xs leading-relaxed">
-            <p className="font-semibold text-foreground">
-              Rechtlicher Hinweis:
-            </p>
+          <div className="space-y-2 text-muted-foreground text-xs leading-relaxed opacity-60">
             <p>
               fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema
-              Männergesundheit. Ziel ist es, Männern zukünftig einen sicheren
+              Männergesundheit. Ziel ist es, M��nnern zukünftig einen sicheren
               und diskreten Zugang zu ärztlicher Beratung und digitaler
               Gesundheitsversorgung zu ermöglichen.
             </p>
