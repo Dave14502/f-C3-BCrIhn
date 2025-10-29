@@ -11,22 +11,27 @@ export default function Footer() {
           {/* Logo */}
           <h2 className="text-2xl font-bold text-primary">fürihn™</h2>
 
+          {/* Legal Notice - Test Phase Warning */}
+          <div className="bg-secondary rounded-lg p-4 border border-border">
+            <p className="text-sm text-foreground font-semibold mb-2">
+              ⚠️ Hinweis: Testphase
+            </p>
+            <p className="text-xs text-muted-foreground">
+              fürihn™ befindet sich aktuell in der Testphase. Es werden keine Medikamente verkauft oder ärztliche Leistungen erbracht.
+            </p>
+          </div>
+
           {/* Legal Disclaimer */}
-          <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
+          <div className="space-y-3 text-muted-foreground text-xs leading-relaxed">
+            <p className="font-semibold text-foreground">Rechtlicher Hinweis:</p>
             <p>
-              fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema Männergesundheit.
+              fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema Männergesundheit. Ziel ist es, Männern zukünftig einen sicheren und diskreten Zugang zu ärztlicher Beratung und digitaler Gesundheitsversorgung zu ermöglichen.
             </p>
             <p>
-              Ziel ist es, Männern zukünftig einen sicheren und diskreten Zugang zu medizinischer Beratung zu ermöglichen.
+              Das Projekt befindet sich derzeit in der Aufbau- und Testphase. Es werden keine medizinischen Leistungen angeboten und keine Medikamente abgegeben.
             </p>
             <p>
-              Aktuell befindet sich das Projekt in der Aufbau- und Testphase.
-            </p>
-            <p>
-              Es werden keine medizinischen Leistungen angeboten und keine Medikamente abgegeben.
-            </p>
-            <p>
-              Die Inhalte dieser Website dienen ausschließlich Informationszwecken und ersetzen keine ärztliche Untersuchung, Diagnose oder Behandlung.
+              Sämtliche Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken und ersetzen keine ärztliche Untersuchung, Diagnose oder Behandlung.
             </p>
           </div>
 
