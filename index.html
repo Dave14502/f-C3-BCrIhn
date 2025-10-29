@@ -27,11 +27,15 @@
         color: #ffffff !important;
       }
 
-      /* Hover states */
-      .hover\:bg-primary\/90:hover,
+      /* Hover states - only change text color */
       .hover\:text-primary:hover {
         color: #00ccbd !important;
-        background-color: rgba(0, 204, 189, 0.9) !important;
+      }
+
+      /* Accordion hover - only text, no background */
+      [role="button"]:hover {
+        color: #00ccbd !important;
+        background-color: transparent !important;
       }
 
       /* FAQ Accordion styles */
