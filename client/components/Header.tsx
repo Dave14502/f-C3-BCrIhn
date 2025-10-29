@@ -31,7 +31,7 @@ export default function Header() {
             <Button className="bg-primary hover:bg-primary/90" onClick={() => {
               document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
             }}>
-              Quiz starten
+              Fragebogen starten
             </Button>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function Header() {
                 setMobileMenuOpen(false);
                 document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
               }}>
-                Quiz starten
+                Fragebogen starten
               </Button>
             </div>
           </div>

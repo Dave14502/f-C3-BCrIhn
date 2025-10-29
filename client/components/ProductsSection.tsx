@@ -48,7 +48,7 @@ export default function ProblemAwarenessSection() {
                   window.open("https://tally.so/r/mVRz7a", "_blank");
                 }}
               >
-                Starte jetzt
+                In 2 Minuten starten
               </Button>
             </div>
           </div>
