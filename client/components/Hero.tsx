@@ -8,16 +8,13 @@ export default function Hero() {
           {/* Headline */}
           <div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-tight mb-6">
-              fürihn™ — Dein diskreter Telehealth-Service für Männergesundheit
+              Wenn dein Körper mal nicht so will wie du. fürihn™ — dein diskreter Online-Service rund um Männergesundheit.
             </h1>
           </div>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground">
-            Schnell, sicher und online.
-            <br />
-            Ärztliche Beratung, digitale Rezeptausstellung und Lieferung über
-            registrierte Partnerapotheken.
+            Kein Wartezimmer. Kein peinliches Gespräch. Nur du – und echte ärztliche Unterstützung.
           </p>
 
           {/* Supporting Quote */}
