@@ -68,7 +68,7 @@ export default function ValuePropositionSection() {
               window.open('https://tally.so/r/mVRz7a', '_blank');
             }}
           >
-            Starte jetzt
+            Jetzt anonym starten
           </Button>
         </div>
       </div>
