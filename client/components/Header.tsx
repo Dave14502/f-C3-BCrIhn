@@ -33,7 +33,7 @@ export default function Header() {
             <Button
               className="bg-primary hover:bg-primary/90"
               onClick={() => {
-                window.open('https://tally.so/r/mVRz7a', '_blank');
+                window.open("https://tally.so/r/mVRz7a", "_blank");
               }}
             >
               Fragebogen starten
@@ -50,7 +50,7 @@ export default function Header() {
                 size="lg"
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  window.open('https://tally.so/r/mVRz7a', '_blank');
+                  window.open("https://tally.so/r/mVRz7a", "_blank");
                 }}
               >
                 Fragebogen starten
