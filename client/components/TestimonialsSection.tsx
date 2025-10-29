@@ -34,7 +34,7 @@ export default function TestimonialsSection() {
         {/* Header */}
         <div className="mb-16 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Erfahrungen echter Nutzer
+            Stimmen aus der Community
           </h2>
         </div>
 
