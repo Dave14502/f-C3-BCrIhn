@@ -33,9 +33,7 @@ export default function Header() {
             <Button
               className="bg-primary hover:bg-primary/90"
               onClick={() => {
-                document
-                  .getElementById("quiz")
-                  ?.scrollIntoView({ behavior: "smooth" });
+                window.open('https://tally.so/r/mVRz7a', '_blank');
               }}
             >
               Fragebogen starten
@@ -52,9 +50,7 @@ export default function Header() {
                 size="lg"
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  document
-                    .getElementById("quiz")
-                    ?.scrollIntoView({ behavior: "smooth" });
+                  window.open('https://tally.so/r/mVRz7a', '_blank');
                 }}
               >
                 Fragebogen starten
