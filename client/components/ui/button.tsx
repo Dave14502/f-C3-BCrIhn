@@ -41,23 +41,84 @@ export interface ButtonProps
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
+  ({ className, variant = "default", size = "default", asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
 
-    // Inline style fallback for Netlify deployment
-    const defaultStyles =
-      variant === "default"
-        ? {
-            backgroundColor: "#00ccbd",
-            color: "#ffffff",
-            borderRadius: "9999px",
-          }
-        : undefined;
+    // Complete inline styles - override Tailwind for Netlify compatibility
+    const inlineStyles: React.CSSProperties = {
+      display: "inline-flex",
+      alignItems: "center",
+      justifyContent: "center",
+      whiteSpace: "nowrap",
+      fontWeight: 500,
+      transition: "all 0.2s ease-in-out",
+      cursor: "pointer",
+      border: "none",
+      outline: "none",
+      ...(variant === "default" && {
+        backgroundColor: "#00ccbd",
+        color: "#ffffff",
+        borderRadius: "9999px",
+      }),
+      ...(variant === "outline" && {
+        backgroundColor: "transparent",
+        color: "#ffffff",
+        border: "1px solid #333333",
+        borderRadius: "9999px",
+      }),
+      ...(variant === "secondary" && {
+        backgroundColor: "#262626",
+        color: "#ffffff",
+        borderRadius: "9999px",
+      }),
+      ...(variant === "destructive" && {
+        backgroundColor: "#dc2626",
+        color: "#ffffff",
+        borderRadius: "6px",
+      }),
+      ...(variant === "ghost" && {
+        backgroundColor: "transparent",
+        color: "#ffffff",
+        borderRadius: "6px",
+      }),
+      ...(variant === "link" && {
+        backgroundColor: "transparent",
+        color: "#00ccbd",
+        textDecoration: "underline",
+      }),
+      ...(size === "lg" && {
+        height: "48px",
+        paddingLeft: "32px",
+        paddingRight: "32px",
+        fontSize: "16px",
+        gap: "8px",
+      }),
+      ...(size === "default" && {
+        height: "40px",
+        paddingLeft: "24px",
+        paddingRight: "24px",
+        fontSize: "14px",
+        gap: "8px",
+      }),
+      ...(size === "sm" && {
+        height: "36px",
+        paddingLeft: "16px",
+        paddingRight: "16px",
+        fontSize: "14px",
+        borderRadius: "9999px",
+        gap: "6px",
+      }),
+      ...(size === "icon" && {
+        height: "40px",
+        width: "40px",
+        padding: "0",
+      }),
+    };
 
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
-        style={defaultStyles}
+        style={inlineStyles}
         ref={ref}
         {...props}
       />
