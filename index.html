@@ -4,6 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello world project</title>
+    <style>
+      /* Force primary color throughout site */
+      :root {
+        --primary: 173 100% 40%;
+        --primary-rgb: 0, 204, 189;
+      }
+
+      /* Logo color */
+      h1 {
+        color: #00ccbd !important;
+      }
+
+      /* Primary text links and accents */
+      .text-primary {
+        color: #00ccbd !important;
+      }
+
+      /* Button backgrounds */
+      .bg-primary {
+        background-color: #00ccbd !important;
+        color: #ffffff !important;
+      }
+
+      /* Hover states */
+      .hover\:bg-primary\/90:hover,
+      .hover\:text-primary:hover {
+        color: #00ccbd !important;
+        background-color: rgba(0, 204, 189, 0.9) !important;
+      }
+
+      /* FAQ Accordion styles */
+      [data-state="open"] {
+        background-color: #1a1a1a !important;
+        border-color: #333333 !important;
+      }
+
+      /* Card hover effects */
+      .border-border {
+        border-color: #333333 !important;
+      }
+
+      .hover\:border-primary:hover {
+        border-color: #00ccbd !important;
+      }
+
+      /* Text colors */
+      .text-foreground {
+        color: #ffffff !important;
+      }
+
+      .text-muted-foreground {
+        color: #a3a3a3 !important;
+      }
+
+      /* Background colors */
+      .bg-background {
+        background-color: #0f0f0f !important;
+      }
+
+      .bg-secondary {
+        background-color: #262626 !important;
+      }
+
+      .bg-card {
+        background-color: #1a1a1a !important;
+      }
+
+      /* Section backgrounds */
+      .border-t {
+        border-top-color: #333333 !important;
+      }
+
+      /* Primary accent everywhere */
+      .text-primary-foreground {
+        color: #ffffff !important;
+      }
+
+      /* Icon colors */
+      svg {
+        color: #00ccbd;
+      }
+    </style>
   </head>
 
   <body>
