@@ -11,22 +11,26 @@ const features: Feature[] = [
   {
     icon: <Shield className="w-12 h-12 text-primary" />,
     title: "Diskret & digital",
-    description: "Alle Schritte finden online statt – anonym, sicher und bequem.",
+    description:
+      "Alle Schritte finden online statt – anonym, sicher und bequem.",
   },
   {
     icon: <Lock className="w-12 h-12 text-primary" />,
     title: "Ärztlich geprüft & legal",
-    description: "fürihn™ arbeitet ausschließlich mit in der EU zugelassenen Ärzten und Apotheken.",
+    description:
+      "fürihn™ arbeitet ausschließlich mit in der EU zugelassenen Ärzten und Apotheken.",
   },
   {
     icon: <Zap className="w-12 h-12 text-primary" />,
     title: "Schneller Ablauf",
-    description: "Von der Anfrage bis zur Lieferung meist innerhalb weniger Werktage.",
+    description:
+      "Von der Anfrage bis zur Lieferung meist innerhalb weniger Werktage.",
   },
   {
     icon: <Users className="w-12 h-12 text-primary" />,
     title: "Flexibel & transparent",
-    description: "Einmalige Behandlung oder regelmäßige Betreuung – du entscheidest.",
+    description:
+      "Einmalige Behandlung oder regelmäßige Betreuung – du entscheidest.",
   },
 ];
 
@@ -52,9 +56,7 @@ export default function ValuePropositionSection() {
               <h3 className="text-lg font-bold text-foreground">
                 {feature.title}
               </h3>
-              <p className="text-muted-foreground">
-                {feature.description}
-              </p>
+              <p className="text-muted-foreground">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -65,7 +67,7 @@ export default function ValuePropositionSection() {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-background font-semibold"
             onClick={() => {
-              window.open('https://tally.so/r/mVRz7a', '_blank');
+              window.open("https://tally.so/r/mVRz7a", "_blank");
             }}
           >
             Jetzt anonym starten

@@ -13,7 +13,9 @@ export default function Header() {
         <div className="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary hover:opacity-80 transition-opacity">fürihn™</h1>
+            <h1 className="text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
+              fürihn™
+            </h1>
           </Link>
 
           {/* Mobile Menu Toggle */}
@@ -28,9 +30,14 @@ export default function Header() {
 
           {/* Right: CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-primary hover:bg-primary/90" onClick={() => {
-              document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
-            }}>
+            <Button
+              className="bg-primary hover:bg-primary/90"
+              onClick={() => {
+                document
+                  .getElementById("quiz")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               Fragebogen starten
             </Button>
           </div>
@@ -40,10 +47,16 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-secondary border-t border-border p-4">
             <div className="space-y-3">
-              <Button className="w-full" size="lg" onClick={() => {
-                setMobileMenuOpen(false);
-                document.getElementById('quiz')?.scrollIntoView({ behavior: 'smooth' });
-              }}>
+              <Button
+                className="w-full"
+                size="lg"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  document
+                    .getElementById("quiz")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
                 Fragebogen starten
               </Button>
             </div>

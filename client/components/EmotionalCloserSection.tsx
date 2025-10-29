@@ -11,10 +11,12 @@ export default function EmotionalCloserSection() {
 
           <div className="space-y-6 text-lg text-background/90 max-w-2xl mx-auto">
             <p>
-              Erektionsprobleme sind nichts Ungewöhnliches – und oft leichter ansprechbar, als viele denken.
+              Erektionsprobleme sind nichts Ungewöhnliches – und oft leichter
+              ansprechbar, als viele denken.
             </p>
             <p>
-              fürihn™ macht den Zugang zu medizinischer Unterstützung einfacher, digital und diskret.
+              fürihn™ macht den Zugang zu medizinischer Unterstützung
+              einfacher, digital und diskret.
             </p>
           </div>
 
@@ -24,7 +26,7 @@ export default function EmotionalCloserSection() {
               size="lg"
               className="bg-background hover:bg-background/90 text-primary font-semibold px-8 py-6 rounded-lg text-lg"
               onClick={() => {
-                window.open('https://tally.so/r/mVRz7a', '_blank');
+                window.open("https://tally.so/r/mVRz7a", "_blank");
               }}
             >
               Jetzt anonym starten

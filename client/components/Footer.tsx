@@ -17,21 +17,31 @@ export default function Footer() {
               ⚠️ Hinweis: Testphase
             </p>
             <p className="text-xs text-muted-foreground">
-              fürihn™ befindet sich aktuell in der Testphase. Es werden keine Medikamente verkauft oder ärztliche Leistungen erbracht.
+              fürihn™ befindet sich aktuell in der Testphase. Es werden keine
+              Medikamente verkauft oder ärztliche Leistungen erbracht.
             </p>
           </div>
 
           {/* Legal Disclaimer */}
           <div className="space-y-3 text-muted-foreground text-xs leading-relaxed">
-            <p className="font-semibold text-foreground">Rechtlicher Hinweis:</p>
-            <p>
-              fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema Männergesundheit. Ziel ist es, Männern zukünftig einen sicheren und diskreten Zugang zu ärztlicher Beratung und digitaler Gesundheitsversorgung zu ermöglichen.
+            <p className="font-semibold text-foreground">
+              Rechtlicher Hinweis:
             </p>
             <p>
-              Das Projekt befindet sich derzeit in der Aufbau- und Testphase. Es werden keine medizinischen Leistungen angeboten und keine Medikamente abgegeben.
+              fürihn™ ist ein Informations- und Aufklärungsprojekt zum Thema
+              Männergesundheit. Ziel ist es, Männern zukünftig einen sicheren
+              und diskreten Zugang zu ärztlicher Beratung und digitaler
+              Gesundheitsversorgung zu ermöglichen.
             </p>
             <p>
-              Sämtliche Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken und ersetzen keine ärztliche Untersuchung, Diagnose oder Behandlung.
+              Das Projekt befindet sich derzeit in der Aufbau- und Testphase. Es
+              werden keine medizinischen Leistungen angeboten und keine
+              Medikamente abgegeben.
+            </p>
+            <p>
+              Sämtliche Inhalte dieser Website dienen ausschließlich allgemeinen
+              Informationszwecken und ersetzen keine ärztliche Untersuchung,
+              Diagnose oder Behandlung.
             </p>
           </div>
 

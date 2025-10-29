@@ -17,7 +17,8 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="text-base md:text-lg text-muted-foreground">
-            Kein Wartezimmer. Kein peinliches Gespräch. Nur echte ärztliche Unterstützung.
+            Kein Wartezimmer. Kein peinliches Gespräch. Nur echte ärztliche
+            Unterstützung.
           </p>
 
           {/* Supporting Quote */}

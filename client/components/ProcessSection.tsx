@@ -10,22 +10,26 @@ const steps: ProcessStep[] = [
   {
     number: 1,
     title: "Online-Fragebogen (2 Minuten)",
-    description: "Beantworte anonyme Fragen – kein Video-Call, kein persönliches Gespräch nötig.",
+    description:
+      "Beantworte anonyme Fragen – kein Video-Call, kein persönliches Gespräch nötig.",
   },
   {
     number: 2,
     title: "Ärztliche Prüfung",
-    description: "Ein zugelassener Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch sinnvoll ist.",
+    description:
+      "Ein zugelassener Arzt prüft deine Angaben und entscheidet individuell, ob eine Behandlung medizinisch sinnvoll ist.",
   },
   {
     number: 3,
     title: "Rezept & Versand über Partnerapotheke",
-    description: "Falls angezeigt, stellt der Arzt ein Rezept aus. Unsere registrierte Partnerapotheke versendet die Behandlung diskret verpackt direkt zu dir.",
+    description:
+      "Falls angezeigt, stellt der Arzt ein Rezept aus. Unsere registrierte Partnerapotheke versendet die Behandlung diskret verpackt direkt zu dir.",
   },
   {
     number: 4,
     title: "Betreuung & Folgerezept (optional)",
-    description: "fürihn™ erinnert dich an Folgerezepte und hilft dir, deine Behandlung flexibel zu gestalten.",
+    description:
+      "fürihn™ erinnert dich an Folgerezepte und hilft dir, deine Behandlung flexibel zu gestalten.",
   },
 ];
 
@@ -39,7 +43,8 @@ export default function ProcessSection() {
             So funktioniert fürihn™
           </h2>
           <p className="text-xl text-muted-foreground">
-            In vier einfachen Schritten – von der Beratung bis zur diskreten Lieferung.
+            In vier einfachen Schritten – von der Beratung bis zur diskreten
+            Lieferung.
           </p>
         </div>
 
@@ -56,9 +61,7 @@ export default function ProcessSection() {
               <h3 className="text-xl font-bold text-foreground">
                 {step.title}
               </h3>
-              <p className="text-muted-foreground">
-                {step.description}
-              </p>
+              <p className="text-muted-foreground">{step.description}</p>
             </div>
           ))}
         </div>
@@ -69,7 +72,7 @@ export default function ProcessSection() {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-background font-semibold"
             onClick={() => {
-              window.open('https://tally.so/r/mVRz7a', '_blank');
+              window.open("https://tally.so/r/mVRz7a", "_blank");
             }}
           >
             In 2 Minuten starten
